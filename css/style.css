@@ -4,6 +4,12 @@
     width: 100%; /* ให้ภาพขยายเต็มพื้นที่แนวนอน */
     border-radius: 5px; /* ขอบโค้งมน */
 }
+
+
+.card-body {
+  
+}
+
 body {
     background-color: #850000 !important;
     color: #FFDB89 !important;
@@ -31,9 +37,9 @@ p {
 
 }
 /* ตกแต่งแท็ก img */
-img {
-    width: 100%;
-    height: auto;
+/*.card img {
+    width: 214px;
+    height: 214px;
     border-radius: 8px;
 }
 

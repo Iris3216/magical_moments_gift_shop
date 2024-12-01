@@ -4,10 +4,18 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>newyear-gift</title>
+        <title>Newyear gift</title>
         <link href="../css/style.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Itim&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Sriracha&display=swap" rel="stylesheet">
+        <style>
+            body{
+                font-family: "Itim", cursive;
+            }
+        </style>
     </head>
     <body>
         <div class="container">  
@@ -21,48 +29,79 @@
                           หมวดหมู่สินค้า
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <li><a class="dropdown-item" href="./christmas-gift.html">ของขวัญวันคริมาส</a></li>
-                          <li><a class="dropdown-item" href="./newyear-gift.html">ของขวัญปีใหม่</a></li>
-                          <li><a class="dropdown-item" href="#">ของขวัญวันวาเลนไทน์</a></li>
-                          <li><a class="dropdown-item" href="#">ของขวัญวันวาเลนไทน์</a></li>
-                          <li><a class="dropdown-item" href="#">ของขวัญวันเกิด</a></li>
-                          <li><a class="dropdown-item" href="#">ดอกไม้</a></li>
+                            <li><a class="dropdown-item" href="./christmas-gift.html">ของขวัญวันคริสต์มาส</a></li>
+                            <li><a class="dropdown-item" href="./newyear-gift.html">ของขวัญปีใหม่</a></li>
+                            <li><a class="dropdown-item" href="./valentine-gift.html">ของขวัญวันวาเลนไทน์</a></li>
+                            <li><a class="dropdown-item" href="./birthday-gift.html">ของขวัญวันเกิด</a></li>
+                            <li><a class="dropdown-item" href="./flowers.html">ดอกไม้</a></li>
                         </ul>
-                    <li class="nav-item web-menu">
-                      <a class="nav-link" href="#service">บริการ</a>
-                    </li>
-                    <li class="nav-item web-menu">
-                      <a class="nav-link" href="./about.html" tabindex="-1" aria-disabled="true">เกี่ยวกับเรา</a>
-                    </li>
+                        <li class="nav-item web-menu">
+                            <a class="nav-link" href="../service.html">บริการ</a>
+                          </li>
+                          <li class="nav-item web-menu">
+                            <a class="nav-link" href="../about.html" tabindex="-1" aria-disabled="true">เกี่ยวกับเรา</a>
+                          </li>
                 </ul>
 
                 <!-- Slider section -->
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="https://images.pexels.com/photos/5485987/pexels-photo-5485987.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="d-block w-100 banner-img" alt="Slide 1">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="https://images.pexels.com/photos/2815377/pexels-photo-2815377.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="d-block w-100 banner-img" alt="Slide 2">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="https://images.pexels.com/photos/68570/roses-bouquet-congratulations-arrangement-68570.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="d-block w-100 banner-img" alt="Slide 3">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+                <div id="carouselExampleIndicators" class="carousel slide"
+                data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="0" class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"></button>
+                    <button type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
                 </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img
+                            src="https://res.cloudinary.com/djx5skawf/image/upload/v1732715530/ml1mvfjfgz87yx7wfazz.jpg"
+                            alt="Slide 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="https://res.cloudinary.com/djx5skawf/image/upload/v1732715530/ucalaiegwqsiod3nkjdk.jpg"
+                            alt="Slide 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="https://res.cloudinary.com/djx5skawf/image/upload/v1732715531/vvcjki7qlgezmatmjlnu.jpg"
+                            alt="Slide 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="https://res.cloudinary.com/djx5skawf/image/upload/v1732715530/yyji0pomldybnda9bwhr.jpg"
+                            alt="Slide 4">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"
+                        aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"
+                        aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
             </header>
         </div>
         <br/>
@@ -70,36 +109,35 @@
          <!-- สร้าง Card สินค้าขายดี-->
          <div class="container">
             <div style="text-align: center; margin: 20px 0;">
-                <h1 style="font-size: 24px; font-weight: bold;">ของขวัญปีใหม่ (New Year Gifts)</h1>
+                <h1 style="font-size: 24px; font-weight: bold;">ของขวัญปีใหม่ (Newyear gift)</h1>
             </div>
-            <h4>สินค้าขายดี</h4>
          <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card">
-                    <img src="https://images.pexels.com/photos/1705287/pexels-photo-1705287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="">
+                    <img src="https://i.pinimg.com/736x/d7/b0/05/d7b005320cc81872c6e4e0c0845be04e.jpg" class="card-img-top" alt="">
                     <div class="card-body">
-                        <h5 class="card-title">ตุ๊กตาหมี</h5>
-                        <p class="card-text">ตุ๊กตาน่ารัก นุ่มนิ่ม สไตล์เกาหลี</p>
+                        <h5 class="card-title">กระเช้าเฟอร์เรโร่ รอชเชอร์</h5>
+                        <p class="card-text">"เติมเต็มความสุขในทุกโอกาสด้วย 'กระเช้าเฟอร์เรโร่ รอชเชอร์' ที่จะทำให้การมอบของขวัญพิเศษยิ่งขึ้น!"</p>
                         <a href="#" class="btn btn-primary">รายละเอียดเพิ่มเติม...</a>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="https://images.pexels.com/photos/1233442/pexels-photo-1233442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="">
+                    <img src="https://i.pinimg.com/736x/3b/07/c5/3b07c5383177dddf433725e132d9b023.jpg" class="card-img-top" alt="">
                     <div class="card-body">
-                        <h5 class="card-title">ช่อกุหลาบ</h5>
-                        <p class="card-text">ช่อกุหลาบสีชมพูหวานละมุน</p>
+                        <h5 class="card-title">สร้อยคอ</h5>
+                        <p class="card-text">"ให้ 'สร้อยคอ' เป็นตัวแทนความงามและสไตล์ที่ไม่เหมือนใครในทุกโอกาส!"</p>
                         <a href="#" class="btn btn-primary">รายละเอียดเพิ่มเติม...</a>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="https://images.pexels.com/photos/13278153/pexels-photo-13278153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+                    <img src="https://i.pinimg.com/736x/4b/cf/9e/4bcf9e2b0fbfe745393bf121db356e3b.jpg" alt="">
                     <div class="card-body">
-                        <h5 class="card-title">ช็อกโกแล็ท</h5>
-                        <p class="card-text">ช็อกโกแลตพรีเมียมส่งต่อความหวานทุกคำ</p>
+                        <h5 class="card-title">นาฬิกา</h5>
+                        <p class="card-text">"มอบความหรูหราและความแม่นยำในทุกวันกับ 'นาฬิกา' ที่จะทำให้คุณโดดเด่นในทุกโอกาส!"</p>
                         <a href="#" class="btn btn-primary">รายละเอียดเพิ่มเติม...</a>
                     </div>
                 </div>
@@ -109,34 +147,33 @@
          <br>
     <!-- สร้าง Card สินค้าแนะนำ-->
     <div class="container">
-        <h4>สินค้าแนะนำ</h4>
      <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
             <div class="card">
-                <img src="https://images.pexels.com/photos/1705287/pexels-photo-1705287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="">
+                <img src="https://i.pinimg.com/736x/19/23/0f/19230f90ff6a99222299421f4ec62eee.jpg" class="card-img-top" alt="">
                 <div class="card-body">
-                    <h5 class="card-title">ตุ๊กตาหมี</h5>
-                    <p class="card-text">ตุ๊กตาน่ารัก นุ่มนิ่ม สไตล์เกาหลี</p>
+                    <h5 class="card-title">Cookies of Joy</h5>
+                    <p class="card-text">"มอบความหวานและความอบอุ่นในทุกโอกาสกับ 'Cookies of Joy' ขนมที่ทำให้ทุกช่วงเวลาเต็มไปด้วยความสุข!"</p>
                     <a href="#" class="btn btn-primary">รายละเอียดเพิ่มเติม...</a>
                 </div>
             </div>
         </div>
         <div class="col">
             <div class="card">
-                <img src="https://images.pexels.com/photos/1233442/pexels-photo-1233442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="">
+                <img src="https://i.pinimg.com/736x/e3/59/1d/e3591de97fd06f45d151e8c441e8e547.jpg" class="card-img-top" alt="">
                 <div class="card-body">
-                    <h5 class="card-title">ช่อกุหลาบ</h5>
-                    <p class="card-text">ช่อกุหลาบสีชมพูหวานละมุน</p>
+                    <h5 class="card-title">เซ็ทผลไม้สายเอาใจผู้ใหญ่ Healthy</h5>
+                    <p class="card-text">"ดูแลสุขภาพด้วยความสดชื่นจากธรรมชาติใน 'เซ็ทผลไม้สายเอาใจผู้ใหญ่ Healthy' ที่เต็มไปด้วยคุณประโยชน์และรสชาติที่คุณรัก!"</p>
                     <a href="#" class="btn btn-primary">รายละเอียดเพิ่มเติม...</a>
                 </div>
             </div>
         </div>
         <div class="col">
             <div class="card">
-                <img src="https://images.pexels.com/photos/13278153/pexels-photo-13278153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+                <img src="https://i.pinimg.com/736x/19/b2/ec/19b2ec2170566da3023ea42fe5127026.jpg" alt="">
                 <div class="card-body">
-                    <h5 class="card-title">ช็อกโกแล็ท</h5>
-                    <p class="card-text">ช็อกโกแลตพรีเมียมส่งต่อความหวานทุกคำ</p>
+                    <h5 class="card-title">Midnight Sparkle</h5>
+                    <p class="card-text">"สัมผัสเสน่ห์แห่งความหรูหราในทุกคืนกับ 'Midnight Sparkle' ที่จะทำให้คุณโดดเด่นและหลงใหลในทุกการเคลื่อนไหว!"</p>
                     <a href="#" class="btn btn-primary">รายละเอียดเพิ่มเติม...</a>
                 </div>
             </div>
@@ -146,34 +183,33 @@
      <br>
      <!-- สร้าง Card สินค้าโปรโมชั่น-->
      <div class="container">
-        <h4>สินค้าโปรโมชั่น</h4>
      <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
             <div class="card">
-                <img src="https://images.pexels.com/photos/1705287/pexels-photo-1705287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="">
+                <img src="https://i.pinimg.com/736x/42/b0/38/42b038c5fe9d21a52f47f5cd03ba2dd4.jpg" class="card-img-top" alt="">
                 <div class="card-body">
-                    <h5 class="card-title">ตุ๊กตาหมี</h5>
-                    <p class="card-text">ตุ๊กตาน่ารัก นุ่มนิ่ม สไตล์เกาหลี</p>
+                    <h5 class="card-title">กระเป๋าสะพายข้าง</h5>
+                    <p class="card-text">"มอบความคล่องตัวและแฟชั่นในทุกการเดินทางกับ 'กระเป๋าสะพายข้าง' ที่จะทำให้คุณโดดเด่นในทุกโอกาส!"</p>
                     <a href="#" class="btn btn-primary">รายละเอียดเพิ่มเติม...</a>
                 </div>
             </div>
         </div>
         <div class="col">
             <div class="card">
-                <img src="https://images.pexels.com/photos/1233442/pexels-photo-1233442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="">
+                <img src="https://i.pinimg.com/736x/63/9a/da/639ada809624b552e6216db03f44e160.jpg" class="card-img-top" alt="">
                 <div class="card-body">
-                    <h5 class="card-title">ช่อกุหลาบ</h5>
-                    <p class="card-text">ช่อกุหลาบสีชมพูหวานละมุน</p>
+                    <h5 class="card-title">New Year Prosperity</h5>
+                    <p class="card-text">"มอบความโชคดีและความสำเร็จด้วย 'New Year Prosperity' สีสันแห่งความมั่งคั่งและความเจริญรุ่งเรืองในทุกโอกาส!"</p>
                     <a href="#" class="btn btn-primary">รายละเอียดเพิ่มเติม...</a>
                 </div>
             </div>
         </div>
         <div class="col">
             <div class="card">
-                <img src="https://images.pexels.com/photos/13278153/pexels-photo-13278153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+                <img src="https://i.pinimg.com/736x/17/fb/42/17fb4241d5f438842ac8eebe0344d200.jpg" alt="">
                 <div class="card-body">
-                    <h5 class="card-title">ช็อกโกแล็ท</h5>
-                    <p class="card-text">ช็อกโกแลตพรีเมียมส่งต่อความหวานทุกคำ</p>
+                    <h5 class="card-title">Fresh Start Bliss</h5>
+                    <p class="card-text">"เริ่มต้นวันใหม่อย่างสดชื่นและเต็มไปด้วยความสุขกับ 'Fresh Start Bliss' ที่จะเติมเต็มความสดใสในทุกการเริ่มต้น!"</p>
                     <a href="#" class="btn btn-primary">รายละเอียดเพิ่มเติม...</a>
                 </div>
             </div>
