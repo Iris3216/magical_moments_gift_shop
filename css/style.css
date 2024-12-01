@@ -246,3 +246,17 @@ footer {
     text-align: center;
     margin-top: 20px;
 }
+
+.btn-custom {
+    background-color: #850000 !important;
+    color: #FFDB89 !important;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+.btn-custom:hover {
+    background-color: #FFDB89 !important;
+    color: #850000 !important;
+}
